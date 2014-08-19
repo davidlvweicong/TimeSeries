@@ -22,9 +22,9 @@ shinyUI(fluidPage(
                     sliderInput("pdegree", "Degree of the trigonometric polynomial:", min = 0, max = 30, value = 0),
                     br(),
                     h5("Irregular Component: ARIMA(p, d, q)"),
-                    sliderInput("d", "Degree of differencing:", min = 0, max = 10, value = 0),
-                    sliderInput("p", "AR order", min = 0, max = 20, value = 0),
-                    sliderInput("q", "MA order", min = 0, max = 20, value = 0),
+                    sliderInput("d", "Degree of differencing (d):", min = 0, max = 10, value = 0),
+                    sliderInput("p", "AR order (p):", min = 0, max = 20, value = 0),
+                    sliderInput("q", "MA order (q):", min = 0, max = 20, value = 0),
                     br()
                 ),
                 tabPanel("Instructions",
